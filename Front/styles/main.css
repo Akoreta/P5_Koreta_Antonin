@@ -1,0 +1,682 @@
+.browserupgrade {
+    margin: .2em 0;
+    background: #ccc;
+    color: #000;
+    padding: .2em 0
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: table
+}
+
+.footer,
+.header,
+.marketing {
+    padding-right: 1rem;
+    padding-left: 1rem
+}
+
+.header {
+    padding-bottom: 1rem;
+    border-bottom: .05rem solid #e5e5e5
+}
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 3rem
+}
+
+@media (min-width:48em) {
+    .container {
+        max-width: 46rem
+    }
+}
+
+.container-narrow>hr {
+    margin: 2rem 0
+}
+
+.jumbotron {
+    text-align: center;
+    border-bottom: .05rem solid #e5e5e5
+}
+
+.jumbotron .btn {
+    padding: .75rem 1.5rem;
+    font-size: 1.5rem
+}
+
+.marketing {
+    margin: 3rem 0
+}
+
+.marketing p+h4 {
+    margin-top: 1.5rem
+}
+
+@media screen and (min-width:48em) {
+    .footer,
+    .header,
+    .marketing {
+        padding-right: 0;
+        padding-left: 0
+    }
+    .header {
+        margin-bottom: 2rem
+    }
+    .jumbotron {
+        border-bottom: 0
+    }
+}
+
+.navbar-expand-md {
+    font-size: 1.5rem
+}
+
+.titre {
+    font-size: 2rem
+}
+
+@media screen and (max-width:985px) {
+    .catalogue {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+header {
+    background-color: #eff6f7
+}
+
+header #navbarText {
+    font-size: 1.6rem
+}
+
+header a {
+    color: #171a21
+}
+
+header .logoOrinoco {
+    margin-right: 10%
+}
+
+@media screen and (min-width:989px) {
+    .panierNavbar {
+        white-space: nowrap;
+        margin-left: 10%
+    }
+}
+
+@media screen and (max-width:989px) {
+    input {
+        margin-top: 5%;
+        margin-bottom: 2%
+    }
+    .panierNavbar {
+        margin-left: 0
+    }
+}
+
+@-webkit-keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    50% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+.jumbotron {
+    height: auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: #fff
+}
+
+.jumbotron p {
+    font-size: 1.6rem
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem
+}
+
+.quiSommesNousCard {
+    background-color: #e5e5e5;
+    width: 110%;
+    padding: 1%;
+    border-radius: 15%;
+    line-height: 30px
+}
+
+.catalogue {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-bottom: 5%
+}
+
+@media screen and (min-width:989px) {
+    .produits {
+        opacity: .85
+    }
+    .produits,
+    .produits:hover {
+        -webkit-transition: .5s;
+        transition: .5s
+    }
+    .produits:hover {
+        opacity: 1;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+}
+
+.produits {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #bfccda
+}
+
+.produits p {
+    font-size: 1.3rem;
+    font-style: italic
+}
+
+.produits h5 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-top: 5%
+}
+
+footer {
+    height: 1px;
+    display: table-row;
+    background-color: #7b7d7e
+}
+
+footer .footerContainer p {
+    text-align: center
+}
+
+footer .footerContainer .footerLink {
+    font-size: 1.2rem
+}
+
+footer .footerContainer .footerLink a {
+    text-decoration: none;
+    color: #fff
+}
+
+footer .footerContainer .footerLogo {
+    padding-top: 20px;
+    margin-bottom: 20px
+}
+
+footer .footerContainer .footerLogo span {
+    margin-right: 1%;
+    font-size: 2rem
+}
+
+footer .footerContainer .footerLogo a {
+    text-decoration: none;
+    color: #171a21
+}
+
+.containerProduits {
+    padding-left: 4%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 5%
+}
+
+.containerProduits h2 {
+    word-break: break-all;
+    font-size: 2rem
+}
+
+.containerProduits .descriptionProduits {
+    text-align: center
+}
+
+.containerProduits .descriptionProduits li {
+    font-family: Signika, sans-serif;
+    font-size: 1.1rem;
+    margin: 5%;
+    word-break: break-all
+}
+
+.containerProduits .descriptionProduits button {
+    font-size: 1.4rem
+}
+
+.containerProduits .containerChoixPerso {
+    text-align: center
+}
+
+.containerProduits .containerChoixPerso label {
+    margin: 4%
+}
+
+#persoNullMessage {
+    margin-top: 20px;
+    color: red
+}
+
+@media screen and (max-width:767px) {
+    .containerProduits {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+    .descriptionProduits {
+        margin-top: 5%
+    }
+}
+
+.sousPanier {
+    background-color: #ccc
+}
+
+.containerPanier {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-bottom: 2%
+}
+
+.containerPanier,
+.panierCardBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.panierCardBody {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.panierCardBody h4 {
+    font-size: 1.5rem
+}
+
+.panierCardBody p {
+    font-size: 1.2rem
+}
+
+.panierCardBody span {
+    font-size: 1rem;
+    font-style: italic
+}
+
+.panierCardBody .partiePrixProduit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.panierCardBody .partiePrixProduit span {
+    color: #464444;
+    margin-left: 20px
+}
+
+.panierCardBody .partiePrixProduit span a {
+    text-decoration: none
+}
+
+#totalPrixPanier {
+    font-size: 2rem
+}
+
+.panierTotalBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 2%
+}
+
+.titrePanier {
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+.partiePanier {
+    height: 60%
+}
+
+@media screen and (max-width:989px) {
+    .containerForm {
+        margin-top: 5%
+    }
+    .containerPanier {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+.containerForm button {
+    margin-top: 5%;
+    margin-bottom: 2%
+}
+
+.containerForm h2 {
+    margin-bottom: 5%;
+    padding-top: 5%
+}
+
+#messageValidation {
+    font-size: 2rem
+}
+
+.priceProduit {
+    font-size: 3rem;
+    text-align: center
+}
+
+#viderLePanier {
+    margin-top: 20px;
+    font-size: 1rem
+}
+
+#prixProduitPanier {
+    font-size: 1.5rem;
+    font-style: italic
+}
+
+.prixTotalContainer {
+    margin-top: 4%
+}
+
+.idProduitPanier {
+    font-size: 1.2rem!important
+}
+
+.nameProduitPanier {
+    font-size: 1.6rem!important;
+    font-weight: 700;
+    text-decoration: underline
+}
+
+.nameProduitPanier a {
+    color: #000
+}
+
+#partiePanierJS {
+    max-height: 550px;
+    overflow-y: auto
+}
+
+#erreur {
+    color: red
+}
+
+.errorAnim {
+    -webkit-animation: shake-horizontal .8s cubic-bezier(.455, .03, .515, .955) both;
+    animation: shake-horizontal .8s cubic-bezier(.455, .03, .515, .955) both
+}
+
+@-webkit-keyframes shake-horizontal {
+    0%,
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px)
+    }
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px)
+    }
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px)
+    }
+    90% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px)
+    }
+}
+
+@keyframes shake-horizontal {
+    0%,
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px)
+    }
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px)
+    }
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px)
+    }
+    90% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px)
+    }
+}
+
+#deleteButton {
+    position: absolute;
+    cursor: pointer;
+    font-size: 1.2rem;
+    right: 40px;
+    bottom: 30%
+}
+
+#descriptionProduit1 {
+    font-family: Raleway, sans-serif;
+    text-decoration: underline
+}
+
+#descriptionAccueil {
+    font-family: Raleway, sans-serif;
+    font-size: 1.1rem
+}
+
+.containerConfirmation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-bottom: 5%
+}
+
+@media screen and (max-width:767px) {
+    .containerConfirmation {
+        margin-left: 5%;
+        margin-right: 5%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 10%
+    }
+    #messageValidation {
+        margin-bottom: 10%;
+        padding-top: 2%;
+        font-size: 1.6rem
+    }
+}
+
+#messageValidation {
+    padding-top: 2%;
+    font-size: 1.6rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px
+}
+
+#messageValidation span {
+    text-transform: capitalize;
+    font-weight: 700
+}
+
+.resumeCommande {
+    font-size: 1.3rem;
+    -ms-flex-pack: distribute;
+    justify-content: space-around
+}
+
+.containerResume {
+    padding: 2% .5% 1%;
+    -webkit-box-shadow: 0 4px 30px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, .2)
+}
+
+.containerResume h2 {
+    margin-bottom: 5%
+}
+
+.containerResume span {
+    text-transform: capitalize
+}
+
+.livraison {
+    margin-left: 5%;
+    text-align: left;
+    font-family: Raleway, sans-serif
+}
+
+.livraisonTitre {
+    padding-bottom: 1%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    font-weight: 700
+}
+
+#produit1Title {
+    margin-bottom: 2%
+}
+
+@-webkit-keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0
+    }
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0
+    }
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+.slide-in-top {
+    -webkit-animation: slide-in-top .5s cubic-bezier(.25, .46, .45, .94) both;
+    animation: slide-in-top .5s cubic-bezier(.25, .46, .45, .94) both
+}
+
+.imgProduct {
+    border-radius: 15px;
+    -webkit-box-shadow: 4px 4px 15px 0 hsla(0, .5%, 41%, .75);
+    box-shadow: 4px 4px 15px 0 hsla(0, .5%, 41%, .75)
+}
+
+#fakePrice {
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: 2.2rem
+}
+
+#titreProduitVueProduit,
+.familyRaleway {
+    font-family: Raleway, sans-serif
+}
+
+.livraisonPanier {
+    font-size: 1.2rem
+}
+
+#produit1Accueil a {
+    color: #272727;
+    text-decoration: none
+}

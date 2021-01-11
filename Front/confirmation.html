@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Orinoco est un site e-commerce et vous présente ses caméras vintage">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>Orinoco-Confirmation</title>
+    <link rel="icon" type="image/png" href="images/logoOnglet.png">
+    <script src="https://kit.fontawesome.com/336f71322f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/vendor.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!--[if IE]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand logoOrinoco" href="index.html"><img src="images/logoOrinoco.png" width="300" class="img-fluid" alt="Logo Orinoco"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarText"><input class="form-control" type="text" placeholder="Rechercher un produit" aria-label="Search">
+                <ul class="navbar-nav mr-auto"></ul><a href="panier.html" class="panierNavbar"><span class="navbar-text nav-link">Mon panier</span></a></div>
+        </nav>
+    </header>
+    <main>
+        <div class="jumbotron">
+            <h1 class="text-success">Paiement validé</h1>
+        </div>
+        <div class="containerConfirmation">
+            <div class="bg-success text-light text-center col-12 align-baseline col-md-5" id="messageValidation"></div>
+            <div class="col-12 col-md-5 text-center containerResume" id="resumeCommande"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <div class="footerLogo">
+                <p><a href="#"><span class="fa fa-instagram"></span> </a><a href="#"><span class="fa fa-facebook"></span> </a><a href="#"><span class="fa fa-twitter"></span></a> <a href="#"><span class="fa fa-truck"></span></a></p>
+            </div>
+            <div class="footerLink">
+                <p><a href="index.html">Accueil &nbsp; | &nbsp; </a><a href="index.html">Contact &nbsp;| &nbsp; </a><a href="panier.html">Panier</a></p>
+                <p style="display:none" id="produit1Accueil"></p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/confirm.js"></script>
+</body>
+
+</html>
