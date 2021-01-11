@@ -44,7 +44,7 @@ function fetchRequeteDynamique(url) { // Fonction qui récupère les caméras di
                 let choixLentille = document.getElementById('choixLense');
                 let addCartButton = document.getElementById('addCart');
                 let monPanierLink = document.getElementById('monPanierLink');
-                let persoNullMessage = document.getElementById('persoNullMessage')
+                let persoNullMessage = document.getElementById('persoNullMessage');
 
                 // Fonction qui rajoute au localStorage un objet produit \\ 
                 function addToLocal(wichNameKey, wichProduct) {

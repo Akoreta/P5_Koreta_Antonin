@@ -28,6 +28,11 @@ let persoValue = localStorage.getItem('Perso');
 persoValue = JSON.parse(persoValue);
 let sommeTotal = 0; // Variable qui va recevoir le total du prix à payé \\ 
 
+let dataPostObject = { // Objet qu'on enverra au serveur \\ 
+    contact: {},
+    products: products
+}
+
 function vuePanier() { // Fonction qui affiche le contenu du panier \\ 
     let totalProduitPanier = Object.keys(localPanierJs).length;
     buttonClearCart.style.display = 'initial';
@@ -94,7 +99,7 @@ function nomVerif() {
 
 
 function adresseVerif() {
-    if (adresse.value.length > 2 && adresse.value.length <= 30 && AdresseReg.test(adresse.value) === true) {
+    if (adresse.value.length > 4 && adresse.value.length <= 30 && AdresseReg.test(adresse.value) === true) {
         isOkAdresse = true;
         adresse.style.borderColor = 'green';
     } else {
@@ -162,10 +167,7 @@ function sendData(dataOne, url) { // Fonction qui envoie les données au serveur
         })
 }
 
-let dataPostObject = { // Objet qu'on enverra au serveur \\ 
-    contact: {},
-    products: products
-}
+
 
 form.addEventListener('submit', function(e) { // Si les champs sont correctement remplis & le panier est rempli on envoie l'objet dataPostObject au serveur \\ 
     if (isOkPrenom === true && isOkNom === true && isOkAdresse === true && isOkVille === true && isOkEmail === true && localStorage.getItem('Mon panier') !== null) {
