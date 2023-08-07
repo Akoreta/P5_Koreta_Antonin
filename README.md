@@ -15,7 +15,7 @@ You will need to have Node and npm installed locally on your machine.
 
 Installation
 
-- To run the server 
+- To run the server (localhost:3000)
 
 ```bash
 npm install
