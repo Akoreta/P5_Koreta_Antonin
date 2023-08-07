@@ -4,7 +4,9 @@
 Orinoco is an online store specializing in vintage cameras, so we had to set up the front end and send each customer's order to the API.
 
 ## 🛠 Skills
- HTML, SCSS, Javascript ✅ 
+ - HTML ⚙️
+ - SCSS ⚙️
+ - Javascript ⚙️ 
 
 
 ## Installation
